@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Подключение шрифтов с Google Fonts */
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* Header */
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #000000;
+  background: #fbc61a;
+}
+
+header h1 {
+  padding: 1rem;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+header a {
+  font-size: 1.2rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000000;
+  transition: all 0.2s ease-in;
+}
+
+header a:hover {
+  opacity: 0.5;
+  transition: all 0.2s ease-in;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main h2 {
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.edit-price {
+  width: 40%;
+}
+
+.edit-contact {
+  width: 40%;
+}
+
+.edit-price form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.edit-contact form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.select-catalog {
+  margin: 0.5rem;
+  width: 60%;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 0.25rem;
+}
+
+.select-part {
+  margin: 0.5rem;
+  width: 60%;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 0.25rem;
+}
+
+.select-new__input {
+  margin: 0.5rem;
+  width: 60%;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 0.25rem;
+  border: 1px solid #a9a9a9;
+  text-align: center;
+  color: #000000;
+}
+
+.select-new__input::placeholder {
+  color: #000000;
+}
+
+.select-new__button {
+  width: 60%;
+  margin: 0.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  color: #000000;
+  background: #fbc61a;
+  border-radius: 0.25rem;
+  border: 2px solid #fbc61a;
+}
+
+.select-new__button:hover {
+  background: #000000;
+  border: 2px solid #000000;
+  color: #ffffff;
+  transition: all 0.2s ease-in;
+}
+
+.text-error {
+  width: 100%;
+  text-align: center;
+  color: red;
+  margin-bottom: 3rem;
+}
+
+.text-error2 {
+  width: 100%;
+  text-align: center;
+  color: red;
+  margin-bottom: 3rem;
+}

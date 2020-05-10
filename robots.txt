@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /index.html
+Disallow: /404.html
+Host: https://potolkirostov.ru
+Sitemap: https://potolkirostov.ru/sitemap.xml
+
+
+

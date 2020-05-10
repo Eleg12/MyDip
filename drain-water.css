@@ -1,0 +1,363 @@
+.block-drain-water {
+  margin-top: 3rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.block-drain-water__title {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 46px;
+  text-align: center;
+  color: #454545;
+  padding-bottom: 4px;
+}
+
+.block-drain-water__title-fisrt {
+  width: 28%;
+  display: flex;
+  justify-content: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 46px;
+  text-align: center;
+  color: #454545;
+}
+
+.block-drain-water__text-fisrt {
+  width: 35%;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 40px;
+  color: #454545;
+}
+
+.block-drain-water__title-after {
+  width: 10%;
+  padding-bottom: 6px;
+  border-bottom: 10px solid #fbc61a;
+}
+
+.block-drain-water__text {
+  width: 35%;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 40px;
+  color: #454545;
+}
+
+.drain-water-block {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.drain-water-block__first img {
+  margin-top: 1rem;
+}
+
+.block-information__button {
+  margin-top: 0rem !important;
+  margin-bottom: 0rem !important;
+}
+
+.drain-water-block__second {
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.drain-water-block__second p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 40px;
+  color: rgba(69, 69, 69, 0.66);
+}
+
+.drain-water-block__second span {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 40px;
+  color: #454545;
+  margin-top: 1rem;
+}
+
+.block-drain-water__title-about {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 46px;
+  text-align: center;
+  color: #454545;
+  margin-top: 4rem;
+  margin-bottom: 4px;
+}
+
+.block-drain-water__photo {
+  margin-top: 2rem;
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.block-drain-water__photo img {
+  margin: 1rem;
+  opacity: 0.5;
+  transition: all 0.2s ease-in;
+}
+
+.block-drain-water__photo img:hover {
+  opacity: 1;
+  transition: all 0.2s ease-in;
+}
+
+.block-drain-water__photo-text {
+  width: 40%;
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 40px;
+  color: #454545;
+}
+
+.drain-water__add {
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+  border: 2px solid #efa716;
+  border-radius: 30px;
+  margin-bottom: 2rem;
+}
+
+.drain-water__add-text {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 40px;
+  color: #454545;
+}
+
+.drain-water__add-price {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 40px;
+  color: #efa716;
+}
+
+@media screen and (max-width: 1600px) {
+  .block-drain-water__text {
+    width: 50%;
+  }
+
+  .block-drain-water__photo-text {
+    width: 50%;
+  }
+
+  .block-drain-water__photo {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .block-drain-water__text-fisrt {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  .block-drain-water {
+    margin-top: 0rem !important;
+  }
+
+  .drain-water-block {
+    width: 50%;
+  }
+
+  .drain-water__add {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .block-drain-water__text {
+    width: 60%;
+  }
+
+  .block-drain-water__photo-text {
+    width: 60%;
+  }
+
+  .block-drain-water__text-fisrt {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .block-information__text-header {
+    width: 100%;
+  }
+
+  .block-drain-water__text {
+    width: 80%;
+  }
+
+  .block-drain-water__photo-text {
+    width: 80%;
+  }
+
+  .block-drain-water__text-fisrt {
+    width: 80%;
+  }
+
+  .drain-water-block {
+    width: 70%;
+  }
+
+  .block-drain-water__photo {
+    width: 90%;
+  }
+
+  .block-drain-water__title-fisrt {
+    width: 50%;
+  }
+
+  .drain-water__add {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header-logotype {
+    margin-left: 0rem !important;
+  }
+
+  .block-drain-water__title {
+    width: 60%;
+  }
+
+  .drain-water-block {
+    width: 80%;
+  }
+
+  .block-drain-water__title-about {
+    width: 60%;
+  }
+
+  .drain-water__add {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .block-drain-water__title {
+    width: 90%;
+  }
+
+  .block-drain-water__title-after {
+    width: 25%;
+  }
+
+  .block-drain-water__text {
+    width: 90%;
+    text-align: center;
+  }
+
+  .drain-water-block {
+    width: 90%;
+  }
+
+  .block-drain-water__title-about {
+    width: 90%;
+  }
+
+  .block-drain-water__photo-text {
+    width: 90%;
+    text-align: center;
+  }
+
+  .block-drain-water__photo img {
+    margin: 1;
+    width: 80%;
+  }
+
+  .block-drain-water__title {
+    font-size: 30px;
+  }
+
+  .block-drain-water__title-fisrt {
+    width: 65%;
+  }
+
+  .block-drain-water__text-fisrt {
+    width: 90%;
+    text-align: center;
+  }
+
+  .drain-water__add {
+    width: 80%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .block-drain-water__title {
+    font-size: 30px;
+  }
+
+  .block-drain-water__text {
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  .drain-water-block__second p {
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  .block-drain-water__title-about {
+    font-size: 30px;
+  }
+
+  .block-drain-water__photo-text {
+    font-size: 16px;
+    line-height: 30px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .block-drain-water__title-about {
+    margin-top: 2rem;
+  }
+}

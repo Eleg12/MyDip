@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Панель Администратор</title>
+    <link rel="icon" href="img/favicon.ico" />
+    <link rel="stylesheet" href="css/admin.css" />
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/jquery.inputmask.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Панель администратора</h1>
+      <a href="index.html">Выйти</a>
+    </header>
+    <main>
+      <h2>Смена цен на потолки</h2>
+      <span style="display: none" class="text-error"></span>
+      <div class="edit-price">
+        <form>
+          <select id="selectGood" class="select-catalog">
+            <option selected disabled>Выберите потолок</option>
+          </select>
+          <select id="selectPart" class="select-part">
+            <option selected disabled>Выберите часть</option>
+            <option value="1">Кухня</option>
+            <option value="2">Ванная</option>
+            <option value="3">Гостинная</option>
+            <option value="4">Спальня</option>
+            <option value="5">В зал</option>
+            <option value="6">В квартиру</option>
+          </select>
+          <input
+            class="select-new__input"
+            type="text"
+            id="valueNew"
+            placeholder="Введите новую цену"
+          />
+          <input
+            id="updatePrice"
+            class="select-new__button"
+            type="submit"
+            value="Обновить"
+          />
+        </form>
+      </div>
+      <h2>Смена контактов</h2>
+      <span style="display: none" class="text-error2"></span>
+      <div class="edit-contact">
+        <form>
+          <select id="select-data" class="select-part">
+            <option selected disabled>Выберите что изменить</option>
+            <option value="1">Адрес</option>
+            <option value="2">Время работы</option>
+            <option value="3">Телефон</option>
+            <option value="4">Электронный адрес</option>
+          </select>
+          <input
+            class="select-new__input"
+            type="text"
+            id="newValue"
+            placeholder="Введите новоё значение"
+          />
+          <input
+            id="update-contact"
+            class="select-new__button"
+            type="submit"
+            value="Обновить"
+          />
+        </form>
+      </div>
+    </main>
+    <script src="js/admin.js"></script>
+  </body>
+</html>
